@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/fav"
+        android:orderInCategory="100"
+        android:title="@string/menu_fav"
+        />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="@string/menu_share" />
+
+    <item
+        android:id="@+id/fee"
+        android:orderInCategory="100"
+        android:title="@string/menu_feedback" />
+
+
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="@string/menu_exit" />
+
+
+
+</menu>

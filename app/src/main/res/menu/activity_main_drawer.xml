@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+<group  android:id="@+id/grp1" android:checkableBehavior="single">
+    <item android:title="Receipes">
+        <menu>
+            <item
+                android:id="@+id/nasta"
+                android:icon="@drawable/icon"
+                android:title="@string/nasta"
+                android:iconTint="#c7311a"/>
+            <item
+                android:id="@+id/partha"
+                android:icon="@drawable/icon"
+                android:title="@string/Paratha"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/chatni"
+                android:icon="@drawable/icon"
+                android:title="@string/Chatni"
+                android:iconTint="#c7311a"/>
+            <item
+                android:id="@+id/aachar"
+                android:icon="@drawable/icon"
+                android:title="@string/Aachar" />
+            <item
+                android:id="@+id/salad"
+                android:icon="@drawable/icon"
+                android:title="@string/Salad"
+                android:iconTint="#c7311a"/>
+            <item
+                android:id="@+id/roti"
+                android:icon="@drawable/icon"
+                android:title="@string/roti"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/sabzi"
+                android:icon="@drawable/icon"
+                android:title="@string/sabzi" />
+
+            <item
+                android:id="@+id/sambhar"
+                android:icon="@drawable/icon"
+                android:title="@string/sambhar"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/maithai"
+                android:icon="@drawable/icon"
+                android:title="@string/mithai" />
+
+            <item
+                android:id="@+id/festival"
+                android:icon="@drawable/icon"
+                android:title="@string/festival"
+                android:iconTint="#c7311a"/>
+            <item
+                android:id="@+id/nonvg"
+                android:icon="@drawable/icon"
+                android:title="@string/nonvg"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/punj"
+                android:icon="@drawable/icon"
+                android:title="@string/punj"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/south"
+                android:icon="@drawable/icon"
+                android:title="@string/south"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/soup"
+                android:icon="@drawable/icon"
+                android:title="@string/soup"
+                android:iconTint="#c7311a"/>
+            <item
+                android:id="@+id/guj"
+                android:icon="@drawable/icon"
+                android:title="@string/guj"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/beng"
+                android:icon="@drawable/icon"
+                android:title="@string/beng"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/birya"
+                android:icon="@drawable/icon"
+                android:title="@string/biryani"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/child"
+                android:icon="@drawable/icon"
+                android:title="@string/child"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/sharbat"
+                android:icon="@drawable/icon"
+                android:title="@string/sharbat"
+                android:iconTint="#c7311a"/>
+
+            <item
+                android:id="@+id/fast"
+                android:icon="@drawable/icon"
+                android:title="@string/fast"
+                android:iconTint="#c7311a"/>
+
+        </menu>
+    </item>
+
+</group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/star"
+                android:title="@string/menu_rate" />
+            <item
+                android:id="@+id/feed"
+                android:icon="@drawable/feedback"
+                android:title="@string/menu_feedback" />
+        </menu>
+    </item>
+
+</menu>
